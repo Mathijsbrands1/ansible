@@ -4,8 +4,8 @@
   become: true
   tasks:
     - name: Allow Minecraft port through UFW
-      ufw: 
+      ufw: 
         rule: allow
-        port: 25565
+        port: 25565
         proto: tcp
 ---
