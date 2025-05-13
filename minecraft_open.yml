@@ -4,7 +4,7 @@
   become: true
   tasks:
     - name: Allow Minecraft port through UFW
-      UFW: 
+      SUDO UFW: 
         rule: allow
         port: 25565
         proto: tcp
