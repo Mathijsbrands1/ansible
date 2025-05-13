@@ -1,5 +1,5 @@
 ---
-  name: Open Minecraft port in UFW
+- name: Open Minecraft port in UFW
   hosts: client2
   become: yes
   tasks:
