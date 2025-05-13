@@ -3,9 +3,9 @@
   hosts: client2
   become: true
   tasks:
-    - name: Allow Minecraft port through UFW
-      ufw:
-        rule: allow
-        port: 25565
-        proto: tcp
+    - name: Allow Minecraft port through UFW
+      ufw: 
+        rule: allow
+        port: 25565
+        proto: tcp
 ---
