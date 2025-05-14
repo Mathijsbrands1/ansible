@@ -5,6 +5,6 @@
   tasks:
     - name: Allow Minecraft port through UFW
       community.general.ufw: 
-        rule: allow
+        rule: allow
         port: 25565
         proto: tcp
