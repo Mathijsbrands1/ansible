@@ -3,5 +3,4 @@ j---
   hosts: client2
   become: true
   tasks:
-    - name: Allow Minecraft port through UFW
-      command: sudo ufw allow 25565/tcp
+    - command: sudo ufw allow 25565/tcp
