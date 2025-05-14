@@ -1,10 +1,10 @@
 ---
 - name: Open Minecraft port in UFW
   hosts: client2
-  become: true
+  become: yes
   tasks:
     - name: Allow Minecraft port through UFW
-      UFW: 
+      ufw: 
         rule: allow
         port: 25565
         proto: tcp
