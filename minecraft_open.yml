@@ -1,4 +1,4 @@
-j---
+---
 - name: Open Minecraft port in UFW
   hosts: client2
   become: true
