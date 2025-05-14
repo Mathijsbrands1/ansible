@@ -1,0 +1,6 @@
+---
+- name: Open Minecraft port in UFW
+  hosts: all
+  become: true
+  tasks:
+    - command: sudo ufw default deny incoming && sudo ufw allow 22/tcp 
