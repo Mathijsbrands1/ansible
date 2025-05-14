@@ -1,0 +1,1 @@
+for i in $(sudo ufw status numbered | grep '^\[' | awk '{print $1}' | tr -d '[]'); do sudo ufw delete $i; done
