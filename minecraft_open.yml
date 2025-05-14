@@ -1,6 +1,6 @@
 ---
 - name: Open Minecraft port in UFW
-  hosts: client2
+  hosts: all
   become: true
   tasks:
     - command: sudo ufw allow 25565/tcp
